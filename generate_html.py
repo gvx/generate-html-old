@@ -3,6 +3,8 @@ import html
 
 from signature_altering import decorator
 
+__version__ = '0.0.1'
+
 VOID_ELEMENTS = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'keygen', 'link', 'menuitem', 'meta', 'param', 'source', 'track', 'wbr'}
 RAW_TEXT_ELEMENTS = {'script', 'style'}
 ESCAPABLE_RAW_TEXT_ELEMENTS = {'textarea', 'title'}
