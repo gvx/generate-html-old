@@ -18,6 +18,7 @@ setup(
     version=version,
     description='Generate HTML5 with Python generators',
     long_description=readme,
+    long_description_content_type="text/markdown",
     author='Robin Wellner',
     author_email='rwellner0@gmail.com',
     maintainer='Robin Wellner',
