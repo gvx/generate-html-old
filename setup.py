@@ -46,4 +46,5 @@ setup(
     tests_require=['coverage', 'pytest', 'hypothesis'],
 
     packages=find_packages(),
+    py_modules=['generate_html']
 )

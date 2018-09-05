@@ -3,7 +3,7 @@ import html
 
 from signature_altering import decorator
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 VOID_ELEMENTS = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'keygen', 'link', 'menuitem', 'meta', 'param', 'source', 'track', 'wbr'}
 RAW_TEXT_ELEMENTS = {'script', 'style'}
